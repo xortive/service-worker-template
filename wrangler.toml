@@ -8,3 +8,5 @@ zone_id = ""
 [builder_config]
 build_command = "npm run build"
 upload_format = "service-worker"
+src_dir = "src"
+build_dir = "dist"
