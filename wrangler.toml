@@ -7,8 +7,4 @@ zone_id = ""
 
 [builder_config]
 build_command = "npm run build"
-upload_format = "modules"
-
-[durable_objects]
-implements = [{class_name = "Counter", namespace_name = "Counter"}]
-uses = [{binding = "Counter", namespace_name = "Counter"}]
+upload_format = "service-worker"
