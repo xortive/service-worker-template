@@ -8,4 +8,4 @@ A template for kick starting a Cloudflare Workers project using custom builds an
 * The compiled main module is set using the package.json "main" field. This should be set to the
   compiled bundle, in this case dist/worker.js
   
-* Wrangler no longer manages aspects of the build like running "npm install", so make sure you do that before running `wrangler build` or `wrangler publish`
+* Wrangler no longer manages aspects of the build like running "npm install", so this has been added to the build script in `package.json`
