@@ -5,8 +5,6 @@ workers_dev = true
 route = ""
 zone_id = ""
 
-[builder_config]
-build_command = "npm run build"
+[build]
+command = "npm install && npm run build"
 upload_format = "service-worker"
-src_dir = "src"
-build_dir = "dist"
